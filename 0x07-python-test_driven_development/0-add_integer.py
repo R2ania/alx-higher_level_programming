@@ -8,7 +8,7 @@
 
 
 def add_integer(a, b=98):
-''' sum two integers '''
+	''' sum two integers '''
 	if not inistance(a, (int, float)):
 		 raise TypeError("a must be an integer")
 
