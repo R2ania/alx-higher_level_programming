@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 
 
-# add_integer - function that add two integers
-# @a: the first integer
-# @b: the second integer
-# return: the result
 
 
 def add_integer(a, b=98):
@@ -17,14 +13,22 @@ def add_integer(a, b=98):
 		 raise TypeError("b must be an integer")
 
 
-
-	if a is float:
-		int(a)
-	elif b is float:
-		int(b)
+	return int(a) + int(b)
 
 
 
-	sum = a + b
-	return sum
+if __name__ == "__main__":
+	import doctest
+	doctest.testfile("tests/0-add_integer.txt")
+
+
+
+
+
+
+
+
+
+
+
 		
