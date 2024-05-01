@@ -3,7 +3,7 @@
 
 
 def add_integer(a, b=98):
-''' sum two integers.
+	''' sum two integers.
 
 	Args:
 	a: first integer
