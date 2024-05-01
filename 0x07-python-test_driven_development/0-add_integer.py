@@ -3,7 +3,7 @@
 
 
 def add_integer(a, b=98):
-	''' sum two integers.
+''' sum two integers.
 
 	Args:
 	a: first integer
@@ -14,7 +14,7 @@ def add_integer(a, b=98):
 
 	Returs:
 	The result  of sum two inegera
- '''
+	 '''
 
 	if type(a) not in (int, float):
 		 raise TypeError("a must be an integer")
@@ -25,4 +25,3 @@ def add_integer(a, b=98):
 if __name__ == "__main__":
 	import doctest
 	doctest.testfile("tests/0-add_integer.txt")
-
