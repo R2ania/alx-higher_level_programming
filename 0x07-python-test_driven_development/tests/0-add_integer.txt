@@ -4,7 +4,7 @@ The ''0-add_integer'' module
 Using''add_integer''
 ----------------------------------
 
-Import function from module
+Import function from module:
 
 	>>> add_integer = __import__('0-add_integer').add_integer
 
@@ -48,10 +48,32 @@ Import function from module
 			...
 		TypeError: b most be an integer
 
-	test both argument invalid:
+	test both arguments invalid:
 
 		>>> add_integer("hello", "there")
 		Traceback (most recent call last)
 			...
 		TypeError: a and b must be integers
+
+	test both add two arguments:
+
+		>>> add_integer(2, 3)
+		5
+
+	test nagtive second argument:
+
+		>>> add_integer(2, -3)
+		-1
+
+	test add float and integer:
+
+		>>> add_integer(1.2, 3)
+		4
+
+	test add integer and string:
+
+		>>> add_integer(2, "4")
+		Traceback (most recent call last)
+			...
+		TypeError: b must be integer
 
