@@ -1,6 +1,5 @@
 -- create table without error
-USE mysql;
-CREATE TABLE IF NOT EXISTS first_table (
+CREATE TABLE IF NOT EXISTS mysql.first_table (
  id  INT,
 name VARCHAR(256));
 
