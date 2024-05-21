@@ -1,3 +1,3 @@
-# lists all databases in the server
+--lists all databases in the server
 SHOW DATABASES;
-# the syntax above list all databass
+--the syntax above list all databass
